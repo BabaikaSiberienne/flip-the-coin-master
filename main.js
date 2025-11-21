@@ -1,8 +1,10 @@
-let coin = 0;
 let image = document.querySelector(".image")
 let coinTitle = document.querySelector(".coin-title")
 const triggerButton = document.querySelector(".button")
-triggerButton.addEventListener('click', () => {
+
+let coin = 0;
+
+function triggerCoin () {
     coin = Math.floor(Math.random() * 2)
     const result = coin === 1 ? true : false
     console.log(result)
@@ -15,8 +17,8 @@ triggerButton.addEventListener('click', () => {
         image.src = "./img/tails.svg"
         coinTitle.textContent = "Tails"
     }
-    
-    
-})
+}
 
+triggerButton.addEventListener('click', triggerCoin)
+image.addEventListener('click', triggerCoin)
 
