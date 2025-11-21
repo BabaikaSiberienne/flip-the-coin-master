@@ -82,7 +82,7 @@ body {
     border: none;
     border-bottom: 4px solid #235f90;
     border-radius: 10px;
-    margin-bottom: 9.5%;
+    margin-bottom: 1.5%;
     margin-top: 4rem;
 }
 
@@ -101,7 +101,7 @@ body {
 }
 
 a {
-    color: #a89ac2;
+    color: #1F6FB0;
 }
 
 @media (max-width: 1200px) {
