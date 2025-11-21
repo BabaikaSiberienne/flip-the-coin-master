@@ -25,7 +25,7 @@ function triggerCoin () {
         coinTitle.textContent = "Tails"
     }
 
-    }, 380)
+    }, 600)
 };
 
 triggerButton.addEventListener('click', triggerCoin)
